@@ -1,0 +1,14 @@
+<mvc:View controllerName="test.post-image-to-flask.controller.post" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns:unified="sap.ui.unified" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Post image file to Flask application on Cloud Foundry">
+				<content>
+					<unified:FileUploader name="goodsImage" uploadUrl="{demo>/url}" buttonOnly="true" icon="sap-icon://camera" iconOnly="true"
+						sameFilenameAllowed="true" fileType="png,jpeg,jpg,bmp,tiff,tif" mimeType="image/png,image/jpg,image/jpeg,image/bmp,image/tiff"
+						uploadComplete="fileUploadComplete" uploadOnChange="true" sendXHR="true"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
