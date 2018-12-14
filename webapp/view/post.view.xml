@@ -4,7 +4,7 @@
 		<pages>
 			<Page title="Post image file to Flask application on Cloud Foundry">
 				<content>
-					<unified:FileUploader name="goodsImage" uploadUrl="{demo>/url}" buttonOnly="true" icon="sap-icon://camera" iconOnly="true"
+					<unified:FileUploader name="sampleImage" uploadUrl="https://flask-image-patient-lynx.cfapps.eu10.hana.ondemand.com/" buttonOnly="true" icon="sap-icon://camera" iconOnly="true"
 						sameFilenameAllowed="true" fileType="png,jpeg,jpg,bmp,tiff,tif" mimeType="image/png,image/jpg,image/jpeg,image/bmp,image/tiff"
 						uploadComplete="fileUploadComplete" uploadOnChange="true" sendXHR="true"/>
 				</content>

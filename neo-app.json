@@ -18,6 +18,14 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/test",
+      "target": {
+        "type": "destination",
+        "name": "test_flask"
+      },
+      "description": "Flask on CF"
     }
   ],
   "sendWelcomeFileRedirect": true
